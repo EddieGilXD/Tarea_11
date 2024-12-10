@@ -1,0 +1,13 @@
+#highlightText {
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+
+
+.highlight {
+    background-color: yellow;
+    transition: background-color 0.5s ease;
+}

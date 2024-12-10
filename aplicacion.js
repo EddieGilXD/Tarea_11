@@ -1,6 +1,5 @@
-let name = document.getElementById("nombre");
-console.log(name.textContent);
+const textElement = document.getElementById('highlightText');
 
-document.getElementById("highLight").addEventListener("click", function(){
-    document.p.style.background = "lightblue";
-})
+textElement.addEventListener('click', function() {
+    this.classList.toggle('highlight');
+});
